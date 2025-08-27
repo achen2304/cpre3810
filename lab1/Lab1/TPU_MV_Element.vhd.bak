@@ -54,7 +54,7 @@ architecture structure of TPU_MV_Element is
     port(iCLK           : in std_logic;
          iA             : in std_logic_vector(DATA_WIDTH-1 downto 0);
          iB             : in std_logic_vector(DATA_WIDTH-1 downto 0);
-         oC             : out std_logic_vector(2*DATA_WIDTH-1 downto 0));
+         oC             : in std_logic_vector(2*DATA_WIDTH-1 downto 0));
   end component;
 
   component Reg

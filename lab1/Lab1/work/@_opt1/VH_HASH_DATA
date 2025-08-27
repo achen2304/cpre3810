@@ -1,0 +1,57 @@
+[N
+6
+2
+5 adder
+3
+8 behavior
+1
+46 /home/achen23/Documents/cpre381/lab1/Lab1/work
+4
+7 A_WIDTH
+5
+7 B_WIDTH
+6
+7 C_WIDTH
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+5
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+6
+1
+0
+32
+0
+0 0
+0
+0
+]
