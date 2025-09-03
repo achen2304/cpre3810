@@ -108,7 +108,7 @@ begin
   g_Delay2: Reg
     generic MAP(DATA_WIDTH => WIDTH)
     port MAP(iCLK             => iCLK,
-             iD               => iX,
+             iD               => iY, -- Should delay iY, not iX
              oQ               => s_Y1);
 
   g_Mult1: Multiplier
