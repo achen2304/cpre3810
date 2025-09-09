@@ -1,0 +1,599 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:19 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# End time: 20:29:19 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:19 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 20:29:19 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:19 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Multiplier.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/RegLd.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/RegLd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:20 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 20:29:20 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:21 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# End time: 20:29:21 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:29:22 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 20:29:22 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_tpu_mv_element -voptargs=+acc
+# vsim work.tb_tpu_mv_element -voptargs="+acc" 
+# Start time: 20:29:31 on Sep 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave *
+# Load canceled
+run -all
+# Break key hit
+# Break in Process P_CLK at /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd line 82
+vsim -voptargs=+acc work.tb_tpu_mv_element
+# End time: 20:30:13 on Sep 08,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_tpu_mv_element 
+# Start time: 20:30:13 on Sep 08,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave *
+run
+run
+run
+# Causality operation skipped due to absence of debug database file
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:45 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# End time: 20:32:45 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:45 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 20:32:45 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:45 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 20:32:45 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Multiplier.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:45 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# End time: 20:32:46 on Sep 08,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:46 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 20:32:46 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:46 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 20:32:46 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:46 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# End time: 20:32:46 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:46 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 20:32:46 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/RegLd.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:46 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/RegLd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# End time: 20:32:46 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:47 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# End time: 20:32:47 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:32:49 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 20:32:49 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_tpu_mv_element
+# End time: 20:32:56 on Sep 08,2025, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_tpu_mv_element 
+# Start time: 20:32:56 on Sep 08,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+wave add *
+add wave -position insertpoint  \
+sim:/tb_tpu_mv_element/gCLK_HPER \
+sim:/tb_tpu_mv_element/DATA_WIDTH \
+sim:/tb_tpu_mv_element/CLK \
+sim:/tb_tpu_mv_element/reset \
+sim:/tb_tpu_mv_element/s_iX \
+sim:/tb_tpu_mv_element/s_iW \
+sim:/tb_tpu_mv_element/s_iLdW \
+sim:/tb_tpu_mv_element/s_iY \
+sim:/tb_tpu_mv_element/s_oY \
+sim:/tb_tpu_mv_element/s_oX \
+sim:/tb_tpu_mv_element/cCLK_PER
+run
+run
+run
+# Load canceled
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:37:49 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# End time: 20:37:49 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:37:50 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 20:37:50 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_tpu_mv_element
+# End time: 20:37:58 on Sep 08,2025, Elapsed time: 0:05:02
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_tpu_mv_element 
+# Start time: 20:37:58 on Sep 08,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading ieee.numeric_std(body)
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave -position insertpoint  \
+sim:/tb_tpu_mv_element/gCLK_HPER \
+sim:/tb_tpu_mv_element/DATA_WIDTH \
+sim:/tb_tpu_mv_element/CLK \
+sim:/tb_tpu_mv_element/reset \
+sim:/tb_tpu_mv_element/s_iX \
+sim:/tb_tpu_mv_element/s_iW \
+sim:/tb_tpu_mv_element/s_iLdW \
+sim:/tb_tpu_mv_element/s_iY \
+sim:/tb_tpu_mv_element/s_oY \
+sim:/tb_tpu_mv_element/s_oX \
+sim:/tb_tpu_mv_element/cCLK_PER
+run
+run
+run
+run
+run -over
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:44:24 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# End time: 20:44:24 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:44:25 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# End time: 20:44:25 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_tpu_mv_element
+# End time: 20:44:41 on Sep 08,2025, Elapsed time: 0:06:43
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_tpu_mv_element 
+# Start time: 20:44:41 on Sep 08,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave *
+# Load canceled
+run
+run
+run
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:51:49 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/tb_mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux2t1_N
+# -- Compiling architecture behavior of tb_mux2t1_N
+# End time: 20:51:49 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mux2t1_n
+# End time: 20:52:02 on Sep 08,2025, Elapsed time: 0:07:21
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.mux2t1_n 
+# Start time: 20:52:02 on Sep 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(0)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(1)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(2)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(3)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(4)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(5)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(6)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(7)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(8)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(9)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(10)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(11)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(12)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(13)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(14)
+# ** Warning: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd(43): (vopt-3473) Component instance "MUXI : mux2t1" is not bound.
+#         Region: /mux2t1_N/G_NBit_MUX(15)
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=17.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux2t1_n(structural)#1
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(0) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(1) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(2) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(3) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(4) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(5) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(6) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(7) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(8) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(9) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(10) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(11) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(12) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(13) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(14) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+# ** Warning: (vsim-3473) Component instance "MUXI : mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /mux2t1_n/G_NBit_MUX(15) File: /home/achen23/Documents/cpre381/lab1/lab1_submit/TPU/Lab1/mux2t1_N.vhd
+add wave -position insertpoint  \
+sim:/mux2t1_n/N \
+sim:/mux2t1_n/i_S \
+sim:/mux2t1_n/i_D0 \
+sim:/mux2t1_n/i_D1 \
+sim:/mux2t1_n/o_O
+run
+run
+run
+# Load canceled
+# End time: 20:53:51 on Sep 08,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 33
