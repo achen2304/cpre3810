@@ -1,0 +1,819 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_inverter
+# -- Compiling architecture structural of nbit_inverter
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_mux2t1
+# -- Compiling architecture structural of nbit_mux2t1
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:08 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 23:03:08 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:13 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture structural of addsub
+# End time: 23:03:13 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/tb_addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:03:14 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/tb_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_addsub
+# -- Compiling architecture behavior of tb_addsub
+# End time: 23:03:14 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Optimization canceled
+vsim work.tb_addsub -voptargs=+acc
+# vsim work.tb_addsub -voptargs="+acc" 
+# Start time: 23:03:25 on Sep 08,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_addsub(behavior)#1
+# Loading work.addsub(structural)#1
+# ** Warning: (vsim-3473) Component instance "inverter_inst : nbit_inverter" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_addsub/DUT File: /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "mux_inst : nbit_mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_addsub/DUT File: /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd
+# Loading work.nbit_adder(structural)#1
+# Loading work.fulladder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_addsub/s_A \
+sim:/tb_addsub/s_B \
+sim:/tb_addsub/s_nAdd_Sub \
+sim:/tb_addsub/s_S \
+sim:/tb_addsub/s_Cout \
+sim:/tb_addsub/N \
+sim:/tb_addsub/CLK_PERIOD
+run
+# ** Note: === Starting Adder-Subtractor Testbench (N=32) ===
+#    Time: 0 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: ADD: 7 + 5 | A: 7, B: 5, nAdd_Sub: '0' | S: 0, Cout: 'U'
+#    Time: 20 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: 10 - 3 | A: 10, B: 3, nAdd_Sub: '1' | S: 0, Cout: 'U'
+#    Time: 40 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: 4 - 9 | A: 4, B: 9, nAdd_Sub: '1' | S: 0, Cout: 'U'
+#    Time: 60 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: -8 - (-3) | A: -8, B: -3, nAdd_Sub: '1' | S: 0, Cout: 'U'
+#    Time: 80 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: ADD: -6 + (-7) | A: -6, B: -7, nAdd_Sub: '0' | S: 0, Cout: 'U'
+#    Time: 100 ns  Iteration: 0  Instance: /tb_addsub
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:22 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 23:07:22 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:22 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 23:07:22 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:22 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 23:07:22 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:22 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 23:07:22 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:26 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 23:07:27 on Sep 08,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_inverter
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd
+# -- Compiling architecture structural of nbit_inverter
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd 
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_inverter
+# -- Compiling architecture structural of nbit_inverter
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd 
+# Errors: 0, Warnings: 0
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_inverter
+# -- Compiling architecture structural of nbit_inverter
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_mux2t1
+# -- Compiling architecture structural of nbit_mux2t1
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_mux2t1
+# -- Compiling architecture structural of nbit_mux2t1
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:29 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/nbit_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_mux2t1
+# -- Compiling architecture structural of nbit_mux2t1
+# End time: 23:07:29 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:31 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture structural of addsub
+# End time: 23:07:32 on Sep 08,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/tb_addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:07:33 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/tb_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_addsub
+# -- Compiling architecture behavior of tb_addsub
+# End time: 23:07:33 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Warning: (vsim-3473) Component instance "inverter_inst : nbit_inverter" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_addsub/DUT File: /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd
+# ** Warning: (vsim-3473) Component instance "mux_inst : nbit_mux2t1" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_addsub/DUT File: /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/addsub.vhd
+run
+# ** Note: === Starting Adder-Subtractor Testbench (N=32) ===
+#    Time: 0 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: ADD: 7 + 5 | A: 7, B: 5, nAdd_Sub: '0' | S: 0, Cout: 'U'
+#    Time: 20 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: 10 - 3 | A: 10, B: 3, nAdd_Sub: '1' | S: 0, Cout: 'U'
+#    Time: 40 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: 4 - 9 | A: 4, B: 9, nAdd_Sub: '1' | S: 0, Cout: 'U'
+#    Time: 60 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: -8 - (-3) | A: -8, B: -3, nAdd_Sub: '1' | S: 0, Cout: 'U'
+#    Time: 80 ns  Iteration: 0  Instance: /tb_addsub
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: ADD: -6 + (-7) | A: -6, B: -7, nAdd_Sub: '0' | S: 0, Cout: 'U'
+#    Time: 100 ns  Iteration: 0  Instance: /tb_addsub
+vcom path/to/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:40 on Sep 08,2025
+# vcom -reportprogress 300 path/to/invg.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/invg.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/andg2.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/andg2.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/org2.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/org2.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/xorg2.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/xorg2.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/mux2t1.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/mux2t1.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/fulladder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/fulladder.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/fulladder.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/nbit_adder.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/nbit_adder.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/nbit_inverter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/nbit_inverter.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/nbit_inverter.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/nbit_mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/nbit_mux2t1.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/nbit_mux2t1.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/addsub.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/addsub.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom path/to/tb_addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:10:41 on Sep 08,2025
+# vcom -reportprogress 300 path/to/tb_addsub.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "path/to/tb_addsub.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:10:41 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom ../Adder/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:12 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../Adder/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/invg.vhd(23) will be overwritten.
+# -- Compiling entity invg
+# ** Warning: ../Adder/invg.vhd(30): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/invg.vhd(30) will be overwritten.
+# -- Compiling architecture dataflow of invg
+# End time: 23:12:12 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom ../Adder/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:12 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../Adder/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/andg2.vhd(23) will be overwritten.
+# -- Compiling entity andg2
+# ** Warning: ../Adder/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/andg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of andg2
+# End time: 23:12:12 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom ../Adder/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:12 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../Adder/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/org2.vhd(23) will be overwritten.
+# -- Compiling entity org2
+# ** Warning: ../Adder/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/org2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of org2
+# End time: 23:12:12 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom ../Adder/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:12 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../Adder/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/xorg2.vhd(23) will be overwritten.
+# -- Compiling entity xorg2
+# ** Warning: ../Adder/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/xorg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of xorg2
+# End time: 23:12:12 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom ../Adder/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:24 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 23:12:24 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:33 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 23:12:33 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:33 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 23:12:33 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:33 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 23:12:33 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:33 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 23:12:33 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+clear
+# [H[2J[3J
+vcom ../Adder/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:38 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 23:12:38 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:38 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 23:12:38 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:38 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 23:12:38 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:38 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 23:12:38 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vcom ../MUX/mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:46 on Sep 08,2025
+# vcom -reportprogress 300 ../MUX/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structural of mux2t1
+# End time: 23:12:46 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/fulladder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:46 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: ../Adder/fulladder.vhd(4): (vcom-1615) Existing entity 'fulladder' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd(4) will be overwritten.
+# -- Compiling entity fulladder
+# ** Warning: ../Adder/fulladder.vhd(14): (vcom-1615) Existing architecture 'fulladder(structural)' at /home/achen23/Documents/cpre381/lab1/lab1_submit/AddSub/fulladder.vhd(14) will be overwritten.
+# -- Compiling architecture structural of fulladder
+# End time: 23:12:47 on Sep 08,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+
+
+vcom ../MUX/mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:48 on Sep 08,2025
+# vcom -reportprogress 300 ../MUX/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structural of mux2t1
+# End time: 23:12:48 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom ../Adder/fulladder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:48 on Sep 08,2025
+# vcom -reportprogress 300 ../Adder/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 23:12:48 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+
+vcom nbit_inverter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:55 on Sep 08,2025
+# vcom -reportprogress 300 nbit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_inverter
+# -- Compiling architecture structural of nbit_inverter
+# End time: 23:12:55 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom nbit_mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:55 on Sep 08,2025
+# vcom -reportprogress 300 nbit_mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_mux2t1
+# -- Compiling architecture structural of nbit_mux2t1
+# End time: 23:12:55 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:12:55 on Sep 08,2025
+# vcom -reportprogress 300 nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 23:12:55 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vcom addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:13:02 on Sep 08,2025
+# vcom -reportprogress 300 addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture structural of addsub
+# End time: 23:13:02 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vcom tb_addsub.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 23:13:07 on Sep 08,2025
+# vcom -reportprogress 300 tb_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_addsub
+# -- Compiling architecture behavior of tb_addsub
+# End time: 23:13:07 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_addsub(behavior)#1
+# Loading work.addsub(structural)#1
+# Loading work.nbit_inverter(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.nbit_mux2t1(structural)#1
+# Loading work.mux2t1(structural)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.nbit_adder(structural)#1
+# Loading work.fulladder(structural)#1
+# Loading work.xorg2(dataflow)#1
+run
+# ** Note: === Starting Adder-Subtractor Testbench (N=32) ===
+#    Time: 0 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: ADD: 7 + 5 | A: 7, B: 5, nAdd_Sub: '0' | S: 12, Cout: '0'
+#    Time: 20 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: 10 - 3 | A: 10, B: 3, nAdd_Sub: '1' | S: 7, Cout: '1'
+#    Time: 40 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: 4 - 9 | A: 4, B: 9, nAdd_Sub: '1' | S: -5, Cout: '0'
+#    Time: 60 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: SUB: -8 - (-3) | A: -8, B: -3, nAdd_Sub: '1' | S: -5, Cout: '0'
+#    Time: 80 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: ADD: -6 + (-7) | A: -6, B: -7, nAdd_Sub: '0' | S: -13, Cout: '1'
+#    Time: 100 ns  Iteration: 0  Instance: /tb_addsub
+run
+# ** Note: SUB: -2 - (-10) | A: -2, B: -10, nAdd_Sub: '1' | S: 8, Cout: '1'
+#    Time: 120 ns  Iteration: 0  Instance: /tb_addsub
+# ** Note: === Testbench Completed Successfully! ===
+#    Time: 120 ns  Iteration: 0  Instance: /tb_addsub
+# End time: 23:14:33 on Sep 08,2025, Elapsed time: 0:11:08
+# Errors: 0, Warnings: 1

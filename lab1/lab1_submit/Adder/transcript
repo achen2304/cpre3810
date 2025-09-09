@@ -1,0 +1,287 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:14 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 22:22:14 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/fulladder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:14 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 22:22:14 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:14 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 22:22:14 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:14 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 22:22:14 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:14 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 22:22:14 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:15 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 22:22:15 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:22:16 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_nbit_adder
+# -- Compiling architecture behavior of tb_nbit_adder
+# End time: 22:22:16 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_nbit_adder -voptargs=+acc
+# vsim work.tb_nbit_adder -voptargs="+acc" 
+# Start time: 22:22:24 on Sep 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_nbit_adder(behavior)#1
+# Loading work.nbit_adder(structural)#1
+# Loading work.fulladder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_nbit_adder/s_A \
+sim:/tb_nbit_adder/s_B \
+sim:/tb_nbit_adder/s_Cin \
+sim:/tb_nbit_adder/s_S \
+sim:/tb_nbit_adder/s_Cout \
+sim:/tb_nbit_adder/N \
+sim:/tb_nbit_adder/CLK_PERIOD
+run
+# ** Note: Starting N-bit Adder Testbench (N=32)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 1: 0 + 0 + 0 | A: 0, B: 0, Cin: '0' | S: 0, Cout: '0'
+#    Time: 10 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 2: 1 + 0 + 0 | A: 1, B: 0, Cin: '0' | S: 1, Cout: '0'
+#    Time: 20 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 3: 1 + 1 + 0 | A: 1, B: 1, Cin: '0' | S: 2, Cout: '0'
+#    Time: 30 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 4: 1 + 1 + 1 | A: 1, B: 1, Cin: '1' | S: 3, Cout: '0'
+#    Time: 40 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 50 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 50 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 5: MAX + 0 + 0 | A: -1, B: 0, Cin: '0' | S: -1, Cout: '0'
+#    Time: 50 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 60 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 6: MAX + 1 + 0 | A: -1, B: 1, Cin: '0' | S: 0, Cout: '1'
+#    Time: 60 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 70 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 70 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 70 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 7: MAX + MAX + 0 | A: -1, B: -1, Cin: '0' | S: -2, Cout: '1'
+#    Time: 70 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 8: MAX + MAX + 1 | A: -1, B: -1, Cin: '1' | S: -1, Cout: '1'
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Testbench completed successfully!
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+run
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:24:59 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_nbit_adder
+# -- Compiling architecture behavior of tb_nbit_adder
+# End time: 22:24:59 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:25:01 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_nbit_adder
+# -- Compiling architecture behavior of tb_nbit_adder
+# End time: 22:25:01 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_nbit_adder(behavior)#1
+# Loading work.nbit_adder(structural)#1
+# Loading work.fulladder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+run
+# ** Note: Starting N-bit Adder Testbench (N=32)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 1: 10 + 20 + 0 | A: 10, B: 20, Cin: '0' | S: 30, Cout: '0'
+#    Time: 10 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 2: 15 + 25 + 0 | A: 15, B: 25, Cin: '0' | S: 40, Cout: '0'
+#    Time: 20 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 3: 99 + 1 + 0 | A: 99, B: 1, Cin: '0' | S: 100, Cout: '0'
+#    Time: 30 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 4: 50 + 50 + 1 | A: 50, B: 50, Cin: '1' | S: 101, Cout: '0'
+#    Time: 40 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 5: 99 + 99 + 0 | A: 99, B: 99, Cin: '0' | S: 198, Cout: '0'
+#    Time: 50 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 6: 88 + 12 + 1 | A: 88, B: 12, Cin: '1' | S: 101, Cout: '0'
+#    Time: 60 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 7: 55 + 45 + 0 | A: 55, B: 45, Cin: '0' | S: 100, Cout: '0'
+#    Time: 70 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 8: 60 + 39 + 1 | A: 60, B: 39, Cin: '1' | S: 100, Cout: '0'
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Testbench completed successfully!
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:27:54 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_nbit_adder
+# -- Compiling architecture behavior of tb_nbit_adder
+# End time: 22:27:54 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 22:27:54 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/Adder/tb_nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_nbit_adder
+# -- Compiling architecture behavior of tb_nbit_adder
+# End time: 22:27:54 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_nbit_adder(behavior)#1
+# Loading work.nbit_adder(structural)#1
+# Loading work.fulladder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+run
+# ** Note: Starting N-bit Adder Testbench (N=32)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 1: 10 + 20 + 0 | A: 10, B: 20, Cin: '0' | S: 30, Cout: '0'
+#    Time: 10 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 2: 99 + 1 + 0 | A: 99, B: 1, Cin: '0' | S: 100, Cout: '0'
+#    Time: 20 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 3: 99 + 99 + 1 | A: 99, B: 99, Cin: '1' | S: 199, Cout: '0'
+#    Time: 30 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 40 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 4: MAX + 1 + 0 | A: -1, B: 1, Cin: '0' | S: 0, Cout: '1'
+#    Time: 40 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 50 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 5: MAX + 0 + 1 | A: -1, B: 0, Cin: '1' | S: 0, Cout: '1'
+#    Time: 50 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 60 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 60 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 60 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 6: MAX + MAX + 0 | A: -1, B: -1, Cin: '0' | S: -2, Cout: '1'
+#    Time: 60 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 7: 55 + 45 + 0 | A: 55, B: 45, Cin: '0' | S: 100, Cout: '0'
+#    Time: 70 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Test 8: 60 + 39 + 1 | A: 60, B: 39, Cin: '1' | S: 100, Cout: '0'
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder
+# ** Note: Testbench completed successfully!
+#    Time: 80 ns  Iteration: 0  Instance: /tb_nbit_adder

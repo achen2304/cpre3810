@@ -1,0 +1,83 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/OnesComp/onescomp_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 21:47:42 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/OnesComp/onescomp_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity onescomp_N
+# -- Compiling architecture structural of onescomp_N
+# End time: 21:47:42 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/OnesComp/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 21:47:42 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/OnesComp/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 21:47:42 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/OnesComp/tb_onescomp_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 21:47:44 on Sep 08,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab1/lab1_submit/OnesComp/tb_onescomp_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_onescomp_N
+# -- Compiling architecture behavior of tb_onescomp_N
+# End time: 21:47:44 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_onescomp_n
+# vsim work.tb_onescomp_n 
+# Start time: 21:47:54 on Sep 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_onescomp_n(behavior)#1
+vsim work.tb_onescomp_n -voptargs=+acc
+# End time: 21:48:38 on Sep 08,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim work.tb_onescomp_n -voptargs="+acc" 
+# Start time: 21:48:38 on Sep 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_onescomp_n(behavior)#1
+# Loading work.onescomp_n(structural)#1
+# Loading work.invg(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_onescomp_n/i_A \
+sim:/tb_onescomp_n/o_Y \
+sim:/tb_onescomp_n/N
+run
+run
+run
+# Causality operation skipped due to absence of debug database file
+# End time: 22:21:50 on Sep 08,2025, Elapsed time: 0:33:12
+# Errors: 0, Warnings: 1
