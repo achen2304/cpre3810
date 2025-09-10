@@ -94,11 +94,11 @@ begin
     s_nAdd_Sub <= '0';
     wait_and_report("ADD: -6 + (-7)");
 
-    -- 6. Negative small - negative big: -2 - (-10) = 8
+    -- 6. Negative small + negative big: -2 + (-10) = -12
     s_A <= std_logic_vector(to_signed(-2, N));
     s_B <= std_logic_vector(to_signed(-10, N));
-    s_nAdd_Sub <= '1';
-    wait_and_report("SUB: -2 - (-10)");
+    s_nAdd_Sub <= '0';
+    wait_and_report("ADD: -2 + (-10)");
 
     report "=== Testbench Completed Successfully! ===";
     wait;
