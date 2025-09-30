@@ -1,0 +1,1108 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vlib work
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:52:12 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 17:52:12 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:52:13 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 17:52:13 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:52:15 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_nbit_reg
+# -- Compiling architecture behavior of tb_nbit_reg
+# End time: 17:52:15 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_nbit_reg -voptargs=+acc
+# vsim work.tb_nbit_reg -voptargs="+acc" 
+# Start time: 17:52:26 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_nbit_reg(behavior)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Load canceled
+run
+add wave -position insertpoint  \
+sim:/tb_nbit_reg/gCLK_HPER \
+sim:/tb_nbit_reg/s_CLK \
+sim:/tb_nbit_reg/s_RST \
+sim:/tb_nbit_reg/s_WE \
+sim:/tb_nbit_reg/s_D \
+sim:/tb_nbit_reg/s_Q \
+sim:/tb_nbit_reg/cCLK_PER \
+sim:/tb_nbit_reg/N
+run
+run -all
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_nbit_reg
+# -- Compiling architecture behavior of tb_nbit_reg
+# End time: 18:08:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 18:08:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:08:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 18:08:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 18:08:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 18:08:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:57 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:08:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:58 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_decoder5t32
+# -- Compiling architecture behavior of tb_decoder5t32
+# End time: 18:08:58 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break key hit
+# Simulation stop requested.
+vsim -voptargs=+acc work.tb_decoder5t32
+# End time: 18:09:13 on Sep 29,2025, Elapsed time: 0:16:47
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb_decoder5t32 
+# Start time: 18:09:13 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_decoder5t32(behavior)#1
+# Loading work.decoder5t32(dataflow)#1
+# Load canceled
+add wave -position insertpoint  \
+sim:/tb_decoder5t32/s_A \
+sim:/tb_decoder5t32/s_Y
+run -all
+# ** Note: PASS: Input 0 ('0''0''0''0''0') -> Output bit 0 is high
+#    Time: 10 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 1 ('0''0''0''0''1') -> Output bit 1 is high
+#    Time: 20 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 2 ('0''0''0''1''0') -> Output bit 2 is high
+#    Time: 30 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 3 ('0''0''0''1''1') -> Output bit 3 is high
+#    Time: 40 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 4 ('0''0''1''0''0') -> Output bit 4 is high
+#    Time: 50 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 5 ('0''0''1''0''1') -> Output bit 5 is high
+#    Time: 60 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 6 ('0''0''1''1''0') -> Output bit 6 is high
+#    Time: 70 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 7 ('0''0''1''1''1') -> Output bit 7 is high
+#    Time: 80 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 8 ('0''1''0''0''0') -> Output bit 8 is high
+#    Time: 90 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 9 ('0''1''0''0''1') -> Output bit 9 is high
+#    Time: 100 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 10 ('0''1''0''1''0') -> Output bit 10 is high
+#    Time: 110 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 11 ('0''1''0''1''1') -> Output bit 11 is high
+#    Time: 120 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 12 ('0''1''1''0''0') -> Output bit 12 is high
+#    Time: 130 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 13 ('0''1''1''0''1') -> Output bit 13 is high
+#    Time: 140 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 14 ('0''1''1''1''0') -> Output bit 14 is high
+#    Time: 150 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 15 ('0''1''1''1''1') -> Output bit 15 is high
+#    Time: 160 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 16 ('1''0''0''0''0') -> Output bit 16 is high
+#    Time: 170 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 17 ('1''0''0''0''1') -> Output bit 17 is high
+#    Time: 180 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 18 ('1''0''0''1''0') -> Output bit 18 is high
+#    Time: 190 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 19 ('1''0''0''1''1') -> Output bit 19 is high
+#    Time: 200 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 20 ('1''0''1''0''0') -> Output bit 20 is high
+#    Time: 210 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 21 ('1''0''1''0''1') -> Output bit 21 is high
+#    Time: 220 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 22 ('1''0''1''1''0') -> Output bit 22 is high
+#    Time: 230 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 23 ('1''0''1''1''1') -> Output bit 23 is high
+#    Time: 240 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 24 ('1''1''0''0''0') -> Output bit 24 is high
+#    Time: 250 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 25 ('1''1''0''0''1') -> Output bit 25 is high
+#    Time: 260 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 26 ('1''1''0''1''0') -> Output bit 26 is high
+#    Time: 270 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 27 ('1''1''0''1''1') -> Output bit 27 is high
+#    Time: 280 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 28 ('1''1''1''0''0') -> Output bit 28 is high
+#    Time: 290 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 29 ('1''1''1''0''1') -> Output bit 29 is high
+#    Time: 300 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 30 ('1''1''1''1''0') -> Output bit 30 is high
+#    Time: 310 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: PASS: Input 31 ('1''1''1''1''1') -> Output bit 31 is high
+#    Time: 320 ns  Iteration: 0  Instance: /tb_decoder5t32
+# ** Note: All decoder tests completed successfully!
+#    Time: 360 ns  Iteration: 0  Instance: /tb_decoder5t32
+# Load canceled
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 18:21:40 on Sep 29,2025, Elapsed time: 0:12:27
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:47 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 18:21:47 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:47 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 18:21:47 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:47 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 18:21:47 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:51 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:21:51 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:53 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 18:21:53 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 18:21:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:21:56 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:56 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 18:21:57 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:57 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 18:21:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:58 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 18:21:58 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:21:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:21:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:22:02 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_decoder5t32
+# -- Compiling architecture behavior of tb_decoder5t32
+# End time: 18:22:02 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:22:04 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_nbit_reg
+# -- Compiling architecture behavior of tb_nbit_reg
+# End time: 18:22:04 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:22:06 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 18:22:06 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:22:07 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:22:07 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/mux32t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:22:09 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux32t1_N
+# -- Compiling architecture dataflow of mux32t1_N
+# End time: 18:22:09 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_mux32t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:22:10 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/RegFile/tb_mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux32t1_N
+# -- Compiling architecture behavior of tb_mux32t1_N
+# End time: 18:22:10 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mux32t1_n
+# vsim -voptargs="+acc" work.tb_mux32t1_n 
+# Start time: 18:22:21 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_mux32t1_n(behavior)#1
+# Loading work.mux32t1_n(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_mux32t1_n/s_S \
+sim:/tb_mux32t1_n/s_D0 \
+sim:/tb_mux32t1_n/s_D1 \
+sim:/tb_mux32t1_n/s_D2 \
+sim:/tb_mux32t1_n/s_D3 \
+sim:/tb_mux32t1_n/s_D4 \
+sim:/tb_mux32t1_n/s_D5 \
+sim:/tb_mux32t1_n/s_D6 \
+sim:/tb_mux32t1_n/s_D7 \
+sim:/tb_mux32t1_n/s_D8 \
+sim:/tb_mux32t1_n/s_D9 \
+sim:/tb_mux32t1_n/s_D10 \
+sim:/tb_mux32t1_n/s_D11 \
+sim:/tb_mux32t1_n/s_D12 \
+sim:/tb_mux32t1_n/s_D13 \
+sim:/tb_mux32t1_n/s_D14 \
+sim:/tb_mux32t1_n/s_D15 \
+sim:/tb_mux32t1_n/s_D16 \
+sim:/tb_mux32t1_n/s_D17 \
+sim:/tb_mux32t1_n/s_D18 \
+sim:/tb_mux32t1_n/s_D19 \
+sim:/tb_mux32t1_n/s_D20 \
+sim:/tb_mux32t1_n/s_D21 \
+sim:/tb_mux32t1_n/s_D22 \
+sim:/tb_mux32t1_n/s_D23 \
+sim:/tb_mux32t1_n/s_D24 \
+sim:/tb_mux32t1_n/s_D25 \
+sim:/tb_mux32t1_n/s_D26 \
+sim:/tb_mux32t1_n/s_D27 \
+sim:/tb_mux32t1_n/s_D28 \
+sim:/tb_mux32t1_n/s_D29 \
+sim:/tb_mux32t1_n/s_D30 \
+sim:/tb_mux32t1_n/s_D31 \
+sim:/tb_mux32t1_n/s_F \
+sim:/tb_mux32t1_n/expected_data \
+sim:/tb_mux32t1_n/N
+run -all
+# ** Note: PASS: Select 0 ('0''0''0''0''0') -> Output = 0
+#    Time: 20 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 1 ('0''0''0''0''1') -> Output = 1
+#    Time: 30 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 2 ('0''0''0''1''0') -> Output = 2
+#    Time: 40 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 3 ('0''0''0''1''1') -> Output = 3
+#    Time: 50 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 4 ('0''0''1''0''0') -> Output = 4
+#    Time: 60 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 5 ('0''0''1''0''1') -> Output = 5
+#    Time: 70 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 6 ('0''0''1''1''0') -> Output = 6
+#    Time: 80 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 7 ('0''0''1''1''1') -> Output = 7
+#    Time: 90 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 8 ('0''1''0''0''0') -> Output = 8
+#    Time: 100 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 9 ('0''1''0''0''1') -> Output = 9
+#    Time: 110 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 10 ('0''1''0''1''0') -> Output = 10
+#    Time: 120 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 11 ('0''1''0''1''1') -> Output = 11
+#    Time: 130 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 12 ('0''1''1''0''0') -> Output = 12
+#    Time: 140 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 13 ('0''1''1''0''1') -> Output = 13
+#    Time: 150 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 14 ('0''1''1''1''0') -> Output = 14
+#    Time: 160 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 15 ('0''1''1''1''1') -> Output = 15
+#    Time: 170 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 16 ('1''0''0''0''0') -> Output = 16
+#    Time: 180 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 17 ('1''0''0''0''1') -> Output = 17
+#    Time: 190 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 18 ('1''0''0''1''0') -> Output = 18
+#    Time: 200 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 19 ('1''0''0''1''1') -> Output = 19
+#    Time: 210 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 20 ('1''0''1''0''0') -> Output = 20
+#    Time: 220 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 21 ('1''0''1''0''1') -> Output = 21
+#    Time: 230 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 22 ('1''0''1''1''0') -> Output = 22
+#    Time: 240 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 23 ('1''0''1''1''1') -> Output = 23
+#    Time: 250 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 24 ('1''1''0''0''0') -> Output = 24
+#    Time: 260 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 25 ('1''1''0''0''1') -> Output = 25
+#    Time: 270 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 26 ('1''1''0''1''0') -> Output = 26
+#    Time: 280 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 27 ('1''1''0''1''1') -> Output = 27
+#    Time: 290 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 28 ('1''1''1''0''0') -> Output = 28
+#    Time: 300 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 29 ('1''1''1''0''1') -> Output = 29
+#    Time: 310 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 30 ('1''1''1''1''0') -> Output = 30
+#    Time: 320 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 31 ('1''1''1''1''1') -> Output = 31
+#    Time: 330 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: All multiplexer tests completed successfully!
+#    Time: 370 ns  Iteration: 0  Instance: /tb_mux32t1_n
+do run_mux_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Compiling VHDL files...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:25:32 on Sep 29,2025
+# vcom -reportprogress 300 -work work mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux32t1_N
+# -- Compiling architecture dataflow of mux32t1_N
+# End time: 18:25:32 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:25:32 on Sep 29,2025
+# vcom -reportprogress 300 -work work tb_mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_mux32t1_N
+# -- Compiling architecture behavior of tb_mux32t1_N
+# End time: 18:25:33 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Starting simulation...
+# End time: 18:25:33 on Sep 29,2025, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_mux32t1_N 
+# Start time: 18:25:33 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_mux32t1_n(behavior)#1
+# Adding signals to wave window...
+# hexadecimal
+# Running simulation...
+# ** Note: PASS: Select 0 ('0''0''0''0''0') -> Output = 0
+#    Time: 20 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 1 ('0''0''0''0''1') -> Output = 1
+#    Time: 30 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 2 ('0''0''0''1''0') -> Output = 2
+#    Time: 40 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 3 ('0''0''0''1''1') -> Output = 3
+#    Time: 50 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 4 ('0''0''1''0''0') -> Output = 4
+#    Time: 60 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 5 ('0''0''1''0''1') -> Output = 5
+#    Time: 70 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 6 ('0''0''1''1''0') -> Output = 6
+#    Time: 80 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 7 ('0''0''1''1''1') -> Output = 7
+#    Time: 90 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 8 ('0''1''0''0''0') -> Output = 8
+#    Time: 100 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 9 ('0''1''0''0''1') -> Output = 9
+#    Time: 110 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 10 ('0''1''0''1''0') -> Output = 10
+#    Time: 120 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 11 ('0''1''0''1''1') -> Output = 11
+#    Time: 130 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 12 ('0''1''1''0''0') -> Output = 12
+#    Time: 140 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 13 ('0''1''1''0''1') -> Output = 13
+#    Time: 150 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 14 ('0''1''1''1''0') -> Output = 14
+#    Time: 160 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 15 ('0''1''1''1''1') -> Output = 15
+#    Time: 170 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 16 ('1''0''0''0''0') -> Output = 16
+#    Time: 180 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 17 ('1''0''0''0''1') -> Output = 17
+#    Time: 190 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 18 ('1''0''0''1''0') -> Output = 18
+#    Time: 200 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 19 ('1''0''0''1''1') -> Output = 19
+#    Time: 210 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 20 ('1''0''1''0''0') -> Output = 20
+#    Time: 220 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 21 ('1''0''1''0''1') -> Output = 21
+#    Time: 230 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 22 ('1''0''1''1''0') -> Output = 22
+#    Time: 240 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 23 ('1''0''1''1''1') -> Output = 23
+#    Time: 250 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 24 ('1''1''0''0''0') -> Output = 24
+#    Time: 260 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 25 ('1''1''0''0''1') -> Output = 25
+#    Time: 270 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 26 ('1''1''0''1''0') -> Output = 26
+#    Time: 280 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 27 ('1''1''0''1''1') -> Output = 27
+#    Time: 290 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 28 ('1''1''1''0''0') -> Output = 28
+#    Time: 300 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 29 ('1''1''1''0''1') -> Output = 29
+#    Time: 310 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 30 ('1''1''1''1''0') -> Output = 30
+#    Time: 320 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: PASS: Select 31 ('1''1''1''1''1') -> Output = 31
+#    Time: 330 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# ** Note: All multiplexer tests completed successfully!
+#    Time: 370 ns  Iteration: 0  Instance: /tb_mux32t1_n
+# 0 ns
+# 389 ns
+# Simulation complete. Check the wave window and transcript for results.
+# Note: Only a subset of input signals are shown in wave window for clarity.
+# The testbench verifies all 32 inputs are working correctly.
+run -over
+# Nothing left to do.
+vcom nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:30 on Sep 29,2025
+# vcom -reportprogress 300 nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 18:32:30 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom dffg.vhd  
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:30 on Sep 29,2025
+# vcom -reportprogress 300 dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 18:32:30 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:30 on Sep 29,2025
+# vcom -reportprogress 300 decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:32:30 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom mux32t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:30 on Sep 29,2025
+# vcom -reportprogress 300 mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux32t1_N
+# -- Compiling architecture dataflow of mux32t1_N
+# End time: 18:32:31 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom regfile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:31 on Sep 29,2025
+# vcom -reportprogress 300 regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regfile
+# -- Compiling architecture structural of regfile
+# End time: 18:32:31 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb_regfile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:31 on Sep 29,2025
+# vcom -reportprogress 300 tb_regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+# End time: 18:32:31 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+quit -sim
+# End time: 18:32:35 on Sep 29,2025, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 0
+vcom nbit_reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:37 on Sep 29,2025
+# vcom -reportprogress 300 nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 18:32:37 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom dffg.vhd  
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:37 on Sep 29,2025
+# vcom -reportprogress 300 dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 18:32:37 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:37 on Sep 29,2025
+# vcom -reportprogress 300 decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:32:37 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom mux32t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:37 on Sep 29,2025
+# vcom -reportprogress 300 mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux32t1_N
+# -- Compiling architecture dataflow of mux32t1_N
+# End time: 18:32:37 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom regfile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:37 on Sep 29,2025
+# vcom -reportprogress 300 regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regfile
+# -- Compiling architecture structural of regfile
+# End time: 18:32:37 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb_regfile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:32:37 on Sep 29,2025
+# vcom -reportprogress 300 tb_regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+# End time: 18:32:38 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+vsim tb_regfile
+# vsim tb_regfile 
+# Start time: 18:32:46 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_regfile(behavior)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+
+add wave *
+run -all
+# ** Note: === Starting Register File Tests ===
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 1: Register 0 always returns 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 correctly returns 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 2: Attempt to write to register 0 (should be ignored)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 write correctly ignored
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 3: Write and read from registers 1-31
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: All registers 1-31 write/read correctly
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 4: Test dual read ports
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Dual read ports work correctly
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 5: Write enable functionality
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Write enable correctly controls writes
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 6: Reset functionality
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Reset correctly clears all registers
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 7: Simultaneous read/write to same register
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Simultaneous read/write works correctly
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: === All Register File Tests Completed Successfully! ===
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# Break key hit
+# Break in Process P_CLK at tb_regfile.vhd line 73
+quit -sim
+# End time: 18:33:27 on Sep 29,2025, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+vcom dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:36:06 on Sep 29,2025
+# vcom -reportprogress 300 dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 18:36:06 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom nbit_reg.vhd  
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:36:06 on Sep 29,2025
+# vcom -reportprogress 300 nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 18:36:06 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom decoder5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:36:06 on Sep 29,2025
+# vcom -reportprogress 300 decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 18:36:06 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom mux32t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:36:06 on Sep 29,2025
+# vcom -reportprogress 300 mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux32t1_N
+# -- Compiling architecture dataflow of mux32t1_N
+# End time: 18:36:06 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom regfile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:36:06 on Sep 29,2025
+# vcom -reportprogress 300 regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regfile
+# -- Compiling architecture structural of regfile
+# End time: 18:36:06 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom tb_regfile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:36:06 on Sep 29,2025
+# vcom -reportprogress 300 tb_regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+# ** Error: tb_regfile.vhd(111): near "3735928559": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(151): near "2271560481": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(160): near "2271560481": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(169): near "2863311530": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(176): near "3149642683": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(183): near "2863311530": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(208): near "4275878552": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(215): near "4275878552": (vcom-119) Integer value exceeds INTEGER'high.
+# ** Error: tb_regfile.vhd(111): (vcom-1144) Value -559038737 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: tb_regfile.vhd(151): (vcom-1144) Value -2023406815 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Warning: tb_regfile.vhd(160): (vcom-1625) Value -2023406815 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: tb_regfile.vhd(169): (vcom-1144) Value -1431655766 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: tb_regfile.vhd(176): (vcom-1144) Value -1145324613 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: tb_regfile.vhd(183): (vcom-1144) Value -1431655766 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: tb_regfile.vhd(208): (vcom-1144) Value -19088744 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Error: tb_regfile.vhd(215): (vcom-1144) Value -19088744 (of type std.STANDARD.NATURAL) is out of range 0 to 2147483647.
+# ** Note: tb_regfile.vhd(227): VHDL Compiler exiting
+# End time: 18:36:06 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 1
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vsim tb_regfile
+# vsim tb_regfile 
+# Start time: 18:36:06 on Sep 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_regfile(behavior)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+run -all
+# ** Note: === Starting Register File Tests ===
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 1: Register 0 always returns 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 correctly returns 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 2: Attempt to write to register 0 (should be ignored)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 write correctly ignored
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 3: Write and read from registers 1-31
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: All registers 1-31 write/read correctly
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 4: Test dual read ports
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Dual read ports work correctly
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 5: Write enable functionality
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Write enable correctly controls writes
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 6: Reset functionality
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Reset correctly clears all registers
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 7: Simultaneous read/write to same register
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Simultaneous read/write works correctly
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: === All Register File Tests Completed Successfully! ===
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# Break key hit
+# Break in Process P_CLK at tb_regfile.vhd line 73
+quit -sim
+# End time: 18:38:00 on Sep 29,2025, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+vcom tb_regfile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:38:03 on Sep 29,2025
+# vcom -reportprogress 300 tb_regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+# End time: 18:38:03 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_regfile
+# vsim tb_regfile 
+# Start time: 18:38:03 on Sep 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_regfile(behavior)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+run -all
+# ** Note: === Starting Register File Tests ===
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 1: Register 0 always returns 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 correctly returns 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 2: Attempt to write to register 0 (should be ignored)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 write correctly ignored
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 3: Write and read from registers 1-31
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: All registers 1-31 write/read correctly
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 4: Test dual read ports
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Dual read ports work correctly
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 5: Write enable functionality
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Write enable correctly controls writes
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 6: Reset functionality
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Reset correctly clears all registers
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 7: Simultaneous read/write to same register
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Simultaneous read/write works correctly
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: === All Register File Tests Completed Successfully! ===
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Simulation finished - stopping now
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+run -all
+quit -sim
+# End time: 18:38:31 on Sep 29,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+vsim tb_regfile
+# vsim tb_regfile 
+# Start time: 18:38:35 on Sep 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_regfile(behavior)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+
+add wave *
+run -all
+# ** Note: === Starting Register File Tests ===
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 1: Register 0 always returns 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 correctly returns 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 2: Attempt to write to register 0 (should be ignored)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Register 0 write correctly ignored
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 3: Write and read from registers 1-31
+#    Time: 100 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: All registers 1-31 write/read correctly
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 4: Test dual read ports
+#    Time: 1340 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Dual read ports work correctly
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 5: Write enable functionality
+#    Time: 1400 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Write enable correctly controls writes
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 6: Reset functionality
+#    Time: 1460 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Reset correctly clears all registers
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Test 7: Simultaneous read/write to same register
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: PASS: Simultaneous read/write works correctly
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: === All Register File Tests Completed Successfully! ===
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+# ** Note: Simulation finished - stopping now
+#    Time: 1540 ns  Iteration: 0  Instance: /tb_regfile
+quit -sim
+# End time: 19:04:08 on Sep 29,2025, Elapsed time: 0:25:33
+# Errors: 0, Warnings: 0

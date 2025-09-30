@@ -1,0 +1,193 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+do run_extender_test.do
+# ** Error (suppressible): (vdel-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'work' is missing or is not a valid QuestaSim library.
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vdel failed.
+# Error in macro ./run_extender_test.do line 5
+# /usr/local/mentor/questasim/linux_x86_64/vdel failed.
+#     while executing
+# "error [FixExecError $msg]"
+#     (procedure "vdel" line 6)
+#     invoked from within
+# "vdel -lib work -all"
+do run_clean_test.do
+# ** Error (suppressible): (vdel-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'work' is missing or is not a valid QuestaSim library.
+# ** Error: /usr/local/mentor/questasim/linux_x86_64/vdel failed.
+# Error in macro ./run_clean_test.do line 5
+# /usr/local/mentor/questasim/linux_x86_64/vdel failed.
+#     while executing
+# "error [FixExecError $msg]"
+#     (procedure "vdel" line 6)
+#     invoked from within
+# "vdel -lib work -all"
+# Modified modelsim.ini
+vlib work
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/extender.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:49 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity extender
+# -- Compiling architecture dataflow of extender
+# End time: 20:01:49 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/signext.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:49 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/signext.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity signextender
+# -- Compiling architecture dataflow of signextender
+# End time: 20:01:49 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/tb_simple.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:49 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/tb_simple.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_extenders_simple
+# -- Compiling architecture behavior of tb_extenders_simple
+# End time: 20:01:50 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/zeroext.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:50 on Sep 29,2025
+# vcom -reportprogress 300 -work work /home/achen23/Documents/cpre381/lab2/Lab2_submit/Extenders/zeroext.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zeroextender
+# -- Compiling architecture dataflow of zeroextender
+# End time: 20:01:50 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do run_clean_test.do
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:54 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work signext.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity signextender
+# -- Compiling architecture dataflow of signextender
+# End time: 20:01:54 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:54 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work zeroext.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zeroextender
+# -- Compiling architecture dataflow of zeroextender
+# End time: 20:01:54 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:54 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity extender
+# -- Compiling architecture dataflow of extender
+# End time: 20:01:54 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:01:54 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work tb_simple.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_extenders_simple
+# -- Compiling architecture behavior of tb_extenders_simple
+# End time: 20:01:54 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.tb_extenders_simple 
+# Start time: 20:01:54 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_extenders_simple(behavior)#1
+# Loading work.signextender(dataflow)#1
+# Loading work.zeroextender(dataflow)#1
+# Loading work.extender(dataflow)#1
+# ** Note: === Starting Extension Testing ===
+#    Time: 0 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Test 1 - Input: +1
+#    Time: 20 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Sign Ext: 00000001
+#    Time: 20 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Zero Ext: 00000001
+#    Time: 20 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Unified (sign): 00000001
+#    Time: 20 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Test 2 - Input: -1
+#    Time: 40 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Sign Ext: FFFFFFFF
+#    Time: 40 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Zero Ext: 00000FFF
+#    Time: 40 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Unified (sign): FFFFFFFF
+#    Time: 40 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Test 3 - Unified zero extension of -1:
+#    Time: 60 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Unified (zero): 00000FFF
+#    Time: 60 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Test 4 - Input: +2047
+#    Time: 80 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Sign Ext: 000007FF
+#    Time: 80 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Zero Ext: 000007FF
+#    Time: 80 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Test 5 - Input: -2048
+#    Time: 100 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Sign Ext: FFFFF800
+#    Time: 100 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: Zero Ext: 00000800
+#    Time: 100 ns  Iteration: 0  Instance: /tb_extenders_simple
+# ** Note: === Extension Testing Completed! ===
+#    Time: 100 ns  Iteration: 0  Instance: /tb_extenders_simple
+# 0 ns
+# 158 ns
+# ========================================
+# Extension Testing Simulation Complete!
+# ========================================
+# 
+# Test Cases Completed:
+# 1. Positive number (+1) - should see 00000001 for both
+# 2. Negative number (-1) - sign ext: FFFFFFFF, zero ext: 00000FFF
+# 3. Zero extension mode test
+# 4. Large positive (+2047)
+# 5. Large negative (-2048)
+# 
+# Key Results to Verify:
+# - Sign extension: MSB replicated to upper bits
+# - Zero extension: Upper bits always zero
+# - Unified extender matches individual components

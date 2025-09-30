@@ -1,0 +1,342 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+do run_datapath_test.do
+# Compiling basic components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:56 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling arithmetic components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work nbit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_inverter
+# -- Compiling architecture structural of nbit_inverter
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture structural of addsub
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling multiplexer components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structural of mux2t1
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux32t1_N
+# -- Compiling architecture dataflow of mux32t1_N
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling register file components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 20:16:57 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:57 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regfile
+# -- Compiling architecture structural of regfile
+# End time: 20:16:58 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Compiling extension components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:58 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work signext.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity signextender
+# -- Compiling architecture dataflow of signextender
+# End time: 20:16:58 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:58 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work zeroext.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zeroextender
+# -- Compiling architecture dataflow of zeroextender
+# End time: 20:16:58 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling memory component...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:58 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 20:16:58 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling enhanced datapath...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:58 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture structural of datapath
+# End time: 20:16:58 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling testbench...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 20:16:58 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work tb_datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_datapath
+# -- Compiling architecture behavior of tb_datapath
+# End time: 20:16:58 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Starting simulation...
+# vsim -voptargs=""+acc"" work.tb_datapath 
+# Start time: 20:16:58 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_datapath(behavior)#1
+# Loading work.datapath(structural)#1
+# Loading work.regfile(structural)#1
+# Loading work.decoder5t32(dataflow)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux32t1_n(dataflow)#1
+# Loading work.signextender(dataflow)#1
+# Loading work.zeroextender(dataflow)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(structural)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.addsub(structural)#1
+# Loading work.nbit_inverter(structural)#1
+# Loading work.nbit_adder(structural)#1
+# Loading work.fulladder(structural)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.mem(rtl)#1
+# Loading memory initialization...
+# Adding waveforms...
+# Running simulation...
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_datapath/DUT/DATA_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 10  Instance: /tb_datapath/DUT/DATA_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 11  Instance: /tb_datapath/DUT/DATA_MEM
+# ** Note: === Starting Enhanced RISC-V Load/Store Test ===
+#    Time: 40 ns  Iteration: 0  Instance: /tb_datapath
+# ** Note: Instruction 1: addi x25, zero, 0
+#    Time: 40 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 2: addi x26, zero, 256
+#    Time: 60 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 3: lw x1, 0(x25)
+#    Time: 80 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Loaded A[0] = 1
+#    Time: 90 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 4: lw x2, 1(x25)
+#    Time: 100 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Loaded A[1] = 2
+#    Time: 110 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 5: add x1, x1, x2
+#    Time: 120 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: x1 = x1 + x2 = 3
+#    Time: 130 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 6: sw x1, 0(x26)
+#    Time: 140 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Stored B[0] = 3
+#    Time: 150 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 7: lw x2, 2(x25)
+#    Time: 160 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Loaded A[2] = 4
+#    Time: 170 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 8: add x1, x1, x2
+#    Time: 180 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: x1 = x1 + x2 = 7
+#    Time: 190 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 9: sw x1, 1(x26)
+#    Time: 200 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Stored B[1] = 7
+#    Time: 210 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction: addi x27, zero, 512
+#    Time: 220 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Final Instruction: sw x1, -4(x27)
+#    Time: 240 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Stored B[63] with negative offset
+#    Time: 250 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: === Load/Store Test Completed Successfully! ===
+#    Time: 250 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Program computed cumulative sums:
+#    Time: 250 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: A[0] = 1, A[1] = 2, A[2] = 4, ...
+#    Time: 250 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: B[0] = A[0] + A[1] = 3
+#    Time: 250 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: B[1] = B[0] + A[2] = 7
+#    Time: 250 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Demonstrated: ADDI, LW, ADD, SW with proper addressing
+#    Time: 250 ns  Iteration: 1  Instance: /tb_datapath
+# 0 ns
+# 525 ns
+# ==========================================
+# Enhanced RISC-V Datapath Simulation Complete!
+# ==========================================
+# 
+# Test Program Summary:
+# 1. Initialize x25 = 0 (pointer to array A)
+# 2. Initialize x26 = 256 (pointer to array B)
+# 3. Load A[0], A[1] and compute sum
+# 4. Store cumulative sums in array B
+# 5. Demonstrate signed offset addressing
+# 
+# Key Features Tested:
+# - Load Word (LW) with positive offsets
+# - Store Word (SW) with positive offsets
+# - Add Immediate (ADDI) for address setup
+# - Register arithmetic (ADD)
+# - Sign extension of immediate values
+# - Memory interface with proper addressing
+# 
+# Memory Layout:
+# - Array A: addresses 0x000-0x006 (values: 1,2,4,8,16,32,64)
+# - Array B: addresses 0x100-0x104 (cumulative sums)
+# 
+# Check waveforms and transcript for detailed execution trace!

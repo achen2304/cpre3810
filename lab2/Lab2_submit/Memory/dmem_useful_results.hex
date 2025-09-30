@@ -1,0 +1,40 @@
+// Memory Initialization File for Useful Test Results
+// 
+// This file contains values designed to demonstrate meaningful memory operations
+// and produce easily verifiable results in the waveform analysis.
+//
+// Test Values Selected for Clear Demonstration:
+// - Mix of positive and negative numbers
+// - Powers of 2 for easy binary verification  
+// - Sequential patterns that are easy to track
+// - Values that will show clear differences when manipulated
+//
+// Address 0x0-0x9: Primary test values
+00000001 // Address 0x0: +1 (easy to identify)
+00000002 // Address 0x1: +2 (power of 2)
+00000004 // Address 0x2: +4 (power of 2)
+00000008 // Address 0x3: +8 (power of 2)
+00000010 // Address 0x4: +16 (power of 2)
+00000020 // Address 0x5: +32 (power of 2)
+FFFFFFFF // Address 0x6: -1 (all 1's in binary)
+FFFFFFFE // Address 0x7: -2 (easy negative)
+00000064 // Address 0x8: +100 (decimal 100, easy to recognize)
+FFFFFF9C // Address 0x9: -100 (decimal -100, complement of +100)
+
+// Additional test values for extended testing
+@10      // Starting at address 0x10 (16 in decimal)
+12345678 // Address 0x10: Distinctive hex pattern
+ABCDEF00 // Address 0x11: Another distinctive hex pattern
+DEADBEEF // Address 0x12: Famous hex pattern
+CAFEBABE // Address 0x13: Another famous hex pattern
+
+// Note: When this memory is tested, the program will:
+// 1. Read values from 0x0-0x9 (should see: 1,2,4,8,16,32,-1,-2,100,-100)
+// 2. Write these same values to 0x100-0x109
+// 3. Read back from 0x100-0x109 to verify (should match original values)
+//
+// Expected Results Summary:
+// - Clear progression: 1,2,4,8,16,32 (powers of 2)
+// - Clear negatives: -1,-2 (easy to verify in two's complement)
+// - Distinctive values: 100,-100 (easy decimal recognition)
+// - When copied to 0x100-0x109, should see identical pattern

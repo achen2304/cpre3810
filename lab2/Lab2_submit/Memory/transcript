@@ -1,0 +1,483 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+do run_dmem_test.do
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:30:59 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 19:30:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:31:00 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture behavior of tb_dmem
+# End time: 19:31:00 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.tb_dmem 
+# Start time: 19:31:00 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_dmem(behavior)#1
+# Loading work.mem(rtl)#1
+# ** Note: === Starting Data Memory Test ===
+#    Time: 20 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 1: Reading initial values from addresses 0x0 to 0x9
+#    Time: 20 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x0: 0xXXXXXXXX (decimal: 0)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x1: 0xXXXXXXXX (decimal: 0)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x2: 0xXXXXXXXX (decimal: 0)
+#    Time: 80 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x3: 0xXXXXXXXX (decimal: 0)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x4: 0xXXXXXXXX (decimal: 0)
+#    Time: 120 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x5: 0xXXXXXXXX (decimal: 0)
+#    Time: 140 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x6: 0xXXXXXXXX (decimal: 0)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x7: 0xXXXXXXXX (decimal: 0)
+#    Time: 180 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x8: 0xXXXXXXXX (decimal: 0)
+#    Time: 200 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 220 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x9: 0xXXXXXXXX (decimal: 0)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 2: Writing values to addresses 0x100 to 0x109
+#    Time: 220 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x256: 0xXXXXXXXX (decimal: 0)
+#    Time: 240 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 260 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x257: 0xXXXXXXXX (decimal: 0)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x258: 0xXXXXXXXX (decimal: 0)
+#    Time: 280 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x259: 0xXXXXXXXX (decimal: 0)
+#    Time: 300 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x260: 0xXXXXXXXX (decimal: 0)
+#    Time: 320 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x261: 0xXXXXXXXX (decimal: 0)
+#    Time: 340 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x262: 0xXXXXXXXX (decimal: 0)
+#    Time: 360 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 380 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x263: 0xXXXXXXXX (decimal: 0)
+#    Time: 380 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x264: 0xXXXXXXXX (decimal: 0)
+#    Time: 400 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x265: 0xXXXXXXXX (decimal: 0)
+#    Time: 420 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 3: Reading back written values for verification
+#    Time: 420 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x256 verification successful. Read: 0xXXXXXXXX
+#    Time: 440 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x257 verification successful. Read: 0xXXXXXXXX
+#    Time: 460 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x258 verification successful. Read: 0xXXXXXXXX
+#    Time: 480 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x259 verification successful. Read: 0xXXXXXXXX
+#    Time: 500 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x260 verification successful. Read: 0xXXXXXXXX
+#    Time: 520 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x261 verification successful. Read: 0xXXXXXXXX
+#    Time: 540 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x262 verification successful. Read: 0xXXXXXXXX
+#    Time: 560 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x263 verification successful. Read: 0xXXXXXXXX
+#    Time: 580 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x264 verification successful. Read: 0xXXXXXXXX
+#    Time: 600 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x265 verification successful. Read: 0xXXXXXXXX
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: === Memory Test Summary ===
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Expected initial values (decimal): -1, 2, -3, 4, 5, 6, -7, -8, 9, -10
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Test operations completed:
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   1. Read 10 initial values from addresses 0x0-0x9
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   2. Wrote same values to addresses 0x100-0x109
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   3. Verified written values by reading them back
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: === Data Memory Test Completed Successfully! ===
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# 0 ns
+# 1050 ns
+# Memory test simulation complete. Check the wave window and transcript for results.
+# 
+# Expected Test Sequence:
+# 1. Read initial 10 values from dmem.hex (addresses 0x0-0x9)
+# 2. Write those values to new addresses 0x100-0x109
+# 3. Read back and verify the written values
+# 
+# Expected initial values: -1, 2, -3, 4, 5, 6, -7, -8, 9, -10
+quit -sim
+# End time: 19:31:30 on Sep 29,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 21
+do run_dmem_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:31:48 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 19:31:48 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:31:48 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture behavior of tb_dmem
+# End time: 19:31:48 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.tb_dmem 
+# Start time: 19:31:48 on Sep 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_dmem(behavior)#1
+# Loading work.mem(rtl)#1
+# ** Note: === Starting Data Memory Test ===
+#    Time: 20 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 1: Reading initial values from addresses 0x0 to 0x9
+#    Time: 20 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x0: 0xXXXXXXXX (decimal: 0)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x1: 0xXXXXXXXX (decimal: 0)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x2: 0xXXXXXXXX (decimal: 0)
+#    Time: 80 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x3: 0xXXXXXXXX (decimal: 0)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x4: 0xXXXXXXXX (decimal: 0)
+#    Time: 120 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x5: 0xXXXXXXXX (decimal: 0)
+#    Time: 140 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x6: 0xXXXXXXXX (decimal: 0)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x7: 0xXXXXXXXX (decimal: 0)
+#    Time: 180 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x8: 0xXXXXXXXX (decimal: 0)
+#    Time: 200 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 220 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x9: 0xXXXXXXXX (decimal: 0)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 2: Writing values to addresses 0x100 to 0x109
+#    Time: 220 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x256: 0xXXXXXXXX (decimal: 0)
+#    Time: 240 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 260 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x257: 0xXXXXXXXX (decimal: 0)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x258: 0xXXXXXXXX (decimal: 0)
+#    Time: 280 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x259: 0xXXXXXXXX (decimal: 0)
+#    Time: 300 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x260: 0xXXXXXXXX (decimal: 0)
+#    Time: 320 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x261: 0xXXXXXXXX (decimal: 0)
+#    Time: 340 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x262: 0xXXXXXXXX (decimal: 0)
+#    Time: 360 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 380 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x263: 0xXXXXXXXX (decimal: 0)
+#    Time: 380 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x264: 0xXXXXXXXX (decimal: 0)
+#    Time: 400 ns  Iteration: 0  Instance: /tb_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x265: 0xXXXXXXXX (decimal: 0)
+#    Time: 420 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 3: Reading back written values for verification
+#    Time: 420 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x256 verification successful. Read: 0xXXXXXXXX
+#    Time: 440 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x257 verification successful. Read: 0xXXXXXXXX
+#    Time: 460 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x258 verification successful. Read: 0xXXXXXXXX
+#    Time: 480 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x259 verification successful. Read: 0xXXXXXXXX
+#    Time: 500 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x260 verification successful. Read: 0xXXXXXXXX
+#    Time: 520 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x261 verification successful. Read: 0xXXXXXXXX
+#    Time: 540 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x262 verification successful. Read: 0xXXXXXXXX
+#    Time: 560 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x263 verification successful. Read: 0xXXXXXXXX
+#    Time: 580 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x264 verification successful. Read: 0xXXXXXXXX
+#    Time: 600 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x265 verification successful. Read: 0xXXXXXXXX
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: === Memory Test Summary ===
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Expected initial values (decimal): -1, 2, -3, 4, 5, 6, -7, -8, 9, -10
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Test operations completed:
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   1. Read 10 initial values from addresses 0x0-0x9
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   2. Wrote same values to addresses 0x100-0x109
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   3. Verified written values by reading them back
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: === Data Memory Test Completed Successfully! ===
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# 0 ns
+# 1050 ns
+# Memory test simulation complete. Check the wave window and transcript for results.
+# 
+# Expected Test Sequence:
+# 1. Read initial 10 values from dmem.hex (addresses 0x0-0x9)
+# 2. Write those values to new addresses 0x100-0x109
+# 3. Read back and verify the written values
+# 
+# Expected initial values: -1, 2, -3, 4, 5, 6, -7, -8, 9, -10
+quit -sim
+# End time: 19:33:51 on Sep 29,2025, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 20
+do run_dmem_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:33:53 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 19:33:53 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:33:53 on Sep 29,2025
+# vcom -reportprogress 300 -2008 -work work tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture behavior of tb_dmem
+# End time: 19:33:53 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.tb_dmem 
+# Start time: 19:33:53 on Sep 29,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_dmem(behavior)#1
+# Loading work.mem(rtl)#1
+# ** Note: === Starting Data Memory Test ===
+#    Time: 60 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 1: Reading initial values from addresses 0x0 to 0x9
+#    Time: 60 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x0: 0xFFFFFFFF (decimal: -1)
+#    Time: 80 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x1: 0x00000002 (decimal: 2)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x2: 0xFFFFFFFD (decimal: -3)
+#    Time: 120 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x3: 0x00000004 (decimal: 4)
+#    Time: 140 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x4: 0x00000005 (decimal: 5)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x5: 0x00000006 (decimal: 6)
+#    Time: 180 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x6: 0xFFFFFFF9 (decimal: -7)
+#    Time: 200 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x7: 0xFFFFFFF8 (decimal: -8)
+#    Time: 220 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x8: 0x00000009 (decimal: 9)
+#    Time: 240 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Read from address 0x9: 0xFFFFFFF6 (decimal: -10)
+#    Time: 260 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 2: Writing values to addresses 0x100 to 0x109
+#    Time: 260 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x256: 0xFFFFFFFF (decimal: -1)
+#    Time: 280 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x257: 0x00000002 (decimal: 2)
+#    Time: 300 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x258: 0xFFFFFFFD (decimal: -3)
+#    Time: 320 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x259: 0x00000004 (decimal: 4)
+#    Time: 340 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x260: 0x00000005 (decimal: 5)
+#    Time: 360 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x261: 0x00000006 (decimal: 6)
+#    Time: 380 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x262: 0xFFFFFFF9 (decimal: -7)
+#    Time: 400 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x263: 0xFFFFFFF8 (decimal: -8)
+#    Time: 420 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x264: 0x00000009 (decimal: 9)
+#    Time: 440 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Wrote to address 0x265: 0xFFFFFFF6 (decimal: -10)
+#    Time: 460 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Phase 3: Reading back written values for verification
+#    Time: 460 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x256 verification successful. Read: 0xFFFFFFFF
+#    Time: 480 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x257 verification successful. Read: 0x00000002
+#    Time: 500 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x258 verification successful. Read: 0xFFFFFFFD
+#    Time: 520 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x259 verification successful. Read: 0x00000004
+#    Time: 540 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x260 verification successful. Read: 0x00000005
+#    Time: 560 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x261 verification successful. Read: 0x00000006
+#    Time: 580 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x262 verification successful. Read: 0xFFFFFFF9
+#    Time: 600 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x263 verification successful. Read: 0xFFFFFFF8
+#    Time: 620 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x264 verification successful. Read: 0x00000009
+#    Time: 640 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: PASS: Address 0x265 verification successful. Read: 0xFFFFFFF6
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: === Memory Test Summary ===
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Expected initial values (decimal): -1, 2, -3, 4, 5, 6, -7, -8, 9, -10
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: Test operations completed:
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   1. Read 10 initial values from addresses 0x0-0x9
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   2. Wrote same values to addresses 0x100-0x109
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note:   3. Verified written values by reading them back
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# ** Note: === Data Memory Test Completed Successfully! ===
+#    Time: 660 ns  Iteration: 0  Instance: /tb_dmem
+# 0 ns
+# 1050 ns
+# Memory test simulation complete. Check the wave window and transcript for results.
+# 
+# Expected Test Sequence:
+# 1. Read initial 10 values from dmem.hex (addresses 0x0-0x9)
+# 2. Write those values to new addresses 0x100-0x109
+# 3. Read back and verify the written values
+# 
+# Expected initial values: -1, 2, -3, 4, 5, 6, -7, -8, 9, -10
+# Causality operation skipped due to absence of debug database file
+run -over
+# Nothing left to do.

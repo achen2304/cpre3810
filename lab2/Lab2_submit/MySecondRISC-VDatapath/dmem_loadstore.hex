@@ -1,0 +1,40 @@
+// Memory Initialization File for RISC-V Load/Store Test
+// Array A and Array B data for demonstration program
+//
+// Memory Layout:
+// A[0] at address 0x000 (0 decimal)
+// A[1] at address 0x001 (1 decimal) - Note: word-addressable  
+// A[2] at address 0x002 (2 decimal)
+// A[3] at address 0x003 (3 decimal)
+// A[4] at address 0x004 (4 decimal)
+// A[5] at address 0x005 (5 decimal)
+// A[6] at address 0x006 (6 decimal)
+//
+// B[0] at address 0x100 (256 decimal) 
+// B[1] at address 0x101 (257 decimal)
+// ... etc
+//
+// Array A values - starting at address 0x0
+00000001 // A[0] = 1    (address 0x000)
+00000002 // A[1] = 2    (address 0x001)
+00000004 // A[2] = 4    (address 0x002)  
+00000008 // A[3] = 8    (address 0x003)
+00000010 // A[4] = 16   (address 0x004)
+00000020 // A[5] = 32   (address 0x005)
+00000040 // A[6] = 64   (address 0x006)
+
+// Fill remaining locations up to B array with zeros
+@100     // Jump to address 0x100 (256 decimal) for Array B
+00000000 // B[0] = 0 (will be overwritten by program)
+00000000 // B[1] = 0 (will be overwritten by program)
+00000000 // B[2] = 0 (will be overwritten by program)
+00000000 // B[3] = 0 (will be overwritten by program)
+00000000 // B[4] = 0 (will be overwritten by program)
+
+// Additional space for B[63] test at address 0x200-4 = 0x1FC (508)
+@1FC     // Address for B[63] 
+00000000 // B[63] = 0 (will be overwritten by program)
+
+// Note: In this simplified implementation, we're using word addressing
+// where each address increment represents a 32-bit word, not a byte.
+// The actual RISC-V addresses would be 4x these values in a byte-addressed system.

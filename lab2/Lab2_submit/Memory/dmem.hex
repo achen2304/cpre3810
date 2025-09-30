@@ -1,0 +1,30 @@
+// File Format:
+// 
+// The text file can contain whitespace characters, comments (C-style),
+// and binary ($readmemb) or hexadecimal ($readmemh) data values.  Both
+// types of data values can contain x or X, z or Z, and the underscore
+// character.
+// 
+// The data values are assigned to memory words from left to right,
+// beginning at start_addr or the left array bound (the default).  The
+// next address to load may be specified in the file itself using @hhhhhh, 
+// where h is a hexadecimal character.  Spaces between the @ and the address 
+// character are not allowed.  It shall be an error if there are too many 
+// words in the file or if an address is outside the bounds of the array.
+// 
+// Modified to contain the requested 32-bit values starting at address 0x0:
+// Decimal values: -1, 2, -3, 4, 5, 6, -7, -8, 9, -10
+// 
+FFFFFFFF // Address 0x0: -1 in 32-bit two's complement
+00000002 // Address 0x1: 2
+FFFFFFFD // Address 0x2: -3 in 32-bit two's complement  
+00000004 // Address 0x3: 4
+00000005 // Address 0x4: 5
+00000006 // Address 0x5: 6
+FFFFFFF9 // Address 0x6: -7 in 32-bit two's complement
+FFFFFFF8 // Address 0x7: -8 in 32-bit two's complement
+00000009 // Address 0x8: 9
+FFFFFFF6 // Address 0x9: -10 in 32-bit two's complement
+
+// Note: This memory is word-addressable, so each address represents 
+// a 32-bit word, not individual bytes as in typical RISC-V memory

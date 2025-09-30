@@ -1,0 +1,293 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+do run_datapath_test.do
+# Compiling basic logic gates...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling arithmetic components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structural of fulladder
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_adder
+# -- Compiling architecture structural of nbit_adder
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work nbit_inverter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_inverter
+# -- Compiling architecture structural of nbit_inverter
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addsub
+# -- Compiling architecture structural of addsub
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling multiplexer components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structural of mux2t1
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work mux32t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux32t1_N
+# -- Compiling architecture dataflow of mux32t1_N
+# End time: 19:04:59 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling register file components...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:59 on Sep 29,2025
+# vcom -reportprogress 300 -work work dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 19:05:00 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:05:00 on Sep 29,2025
+# vcom -reportprogress 300 -work work nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nbit_reg
+# -- Compiling architecture structural of nbit_reg
+# End time: 19:05:00 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:05:00 on Sep 29,2025
+# vcom -reportprogress 300 -work work decoder5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder5t32
+# -- Compiling architecture dataflow of decoder5t32
+# End time: 19:05:00 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:05:00 on Sep 29,2025
+# vcom -reportprogress 300 -work work regfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regfile
+# -- Compiling architecture structural of regfile
+# End time: 19:05:00 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compiling datapath...
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:05:00 on Sep 29,2025
+# vcom -reportprogress 300 -work work datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture structural of datapath
+# End time: 19:05:00 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:05:00 on Sep 29,2025
+# vcom -reportprogress 300 -work work tb_datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_datapath
+# -- Compiling architecture behavior of tb_datapath
+# End time: 19:05:00 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Starting simulation...
+# vsim -gui work.tb_datapath 
+# Start time: 19:05:00 on Sep 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_datapath(behavior)#1
+# Loading work.regfile(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.nbit_adder(structural)#1
+# Adding signals to wave window...
+# decimal
+# Running simulation...
+# ** Note: === Starting RISC-V Instruction Sequence Test ===
+#    Time: 50 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 1: addi x1, zero, 1
+#    Time: 60 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: PASS: x1 = 1
+#    Time: 70 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 2: addi x2, zero, 2
+#    Time: 80 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 3: addi x3, zero, 3
+#    Time: 100 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 4: addi x4, zero, 4
+#    Time: 120 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 5: addi x5, zero, 5
+#    Time: 140 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 6: addi x6, zero, 6
+#    Time: 160 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 7: addi x7, zero, 7
+#    Time: 180 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 8: addi x8, zero, 8
+#    Time: 200 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 9: addi x9, zero, 9
+#    Time: 220 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 10: addi x10, zero, 10
+#    Time: 240 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 11: add x11, x1, x2
+#    Time: 260 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: PASS: x11 = x1 + x2 = 3
+#    Time: 270 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 12: sub x12, x11, x3
+#    Time: 280 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: PASS: x12 = x11 - x3 = 0
+#    Time: 290 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 13: add x13, x12, x4
+#    Time: 300 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 14: sub x14, x13, x5
+#    Time: 320 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 15: add x15, x14, x6
+#    Time: 340 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 16: sub x16, x15, x7
+#    Time: 360 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 17: add x17, x16, x8
+#    Time: 380 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 18: sub x18, x17, x9
+#    Time: 400 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 19: add x19, x18, x10
+#    Time: 420 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: PASS: x19 = x18 + x10 = 7
+#    Time: 430 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 20: addi x20, zero, -35
+#    Time: 440 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Instruction 21: add x21, x19, x20
+#    Time: 460 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: PASS: x21 = x19 + x20 = -28
+#    Time: 470 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: === Final Register State Verification ===
+#    Time: 470 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Final x21 = -28 (expected -28)
+#    Time: 490 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Final x19 = 7 (expected 7)
+#    Time: 510 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: === Expected Final Register State ===
+#    Time: 510 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: x0=0, x1=1, x2=2, x3=3, x4=4, x5=5, x6=6, x7=7, x8=8, x9=9, x10=10
+#    Time: 510 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: x11=3, x12=0, x13=4, x14=-1, x15=5, x16=-2, x17=6, x18=-3, x19=7
+#    Time: 510 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: x20=-35, x21=-28
+#    Time: 510 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: === RISC-V Instruction Sequence Completed Successfully! ===
+#    Time: 510 ns  Iteration: 1  Instance: /tb_datapath
+# ** Note: Simulation finished - stopping now
+#    Time: 510 ns  Iteration: 1  Instance: /tb_datapath
+# 0 ns
+# 546 ns
+# Simulation complete. Check the wave window and transcript for results.
+# 
+# Expected Results:
+# - Test 1: x1 should contain 100
+# - Test 2: x2 should contain 50
+# - Test 3: x3 should contain 150 (100+50)
+# - Test 4: x4 should contain 125 (100+25)
+# - Test 5: x5 should contain 50 (100-50)
+# - Test 6: x6 should contain 70 (100-30)
+quit -sim
+# End time: 19:30:30 on Sep 29,2025, Elapsed time: 0:25:30
+# Errors: 0, Warnings: 0
